@@ -18,5 +18,10 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+  },
+  "blocklet": {
+    "scripts": {
+      "dev": "npm run start"
+    }
   }
 }
