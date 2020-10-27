@@ -21,7 +21,7 @@
   },
   "blocklet": {
     "scripts": {
-      "dev": "npm run start"
+      "dev": "meteor run --port $BLOCKLET_PORT"
     }
   }
 }
