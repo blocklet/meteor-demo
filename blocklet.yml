@@ -1,0 +1,23 @@
+name: meteor-demo
+scripts:
+  dev: npm run start
+description: >-
+  Blocklet from
+  /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/meteor-demo
+version: 1.0.0
+group: static
+main: .
+publicUrl: /
+did: z8ia3bDrdFhPd9r6XsEPwegq56NvVMaWY9Um7
+community: ''
+documentation: ''
+homepage: ''
+license: ''
+charging:
+  price: 0
+interfaces: []
+environments: []
+capabilities:
+  dynamicPathPrefix: true
+screenshots: []
+specVersion: 1.0.0
