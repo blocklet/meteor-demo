@@ -7,17 +7,21 @@ description: >-
 version: 1.0.0
 group: static
 main: .
-publicUrl: /
 did: z8ia3bDrdFhPd9r6XsEPwegq56NvVMaWY9Um7
 community: ''
 documentation: ''
 homepage: ''
 license: ''
-charging:
-  price: 0
-interfaces: []
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: tcp
 environments: []
-capabilities:
-  dynamicPathPrefix: true
 screenshots: []
-specVersion: 1.0.0
+specVersion: 1.0.1
+timeout:
+  start: 10
+files: []
