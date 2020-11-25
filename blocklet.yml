@@ -5,7 +5,7 @@ description: >-
   Blocklet from
   /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/meteor-demo
 version: 1.0.0
-group: static
+group: dapp
 main: .meteor-build-output/bundle/main.js
 files:
   - .meteor-build-output/bundle/*
