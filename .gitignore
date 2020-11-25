@@ -5,3 +5,6 @@ node_modules/
 # abtnoded
 .abtnode
 .blocklet
+
+# meteor build directory
+.meteor-build-output

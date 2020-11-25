@@ -5,7 +5,11 @@
     "start": "meteor run --port  ${BLOCKLET_PORT:-${PORT:-3000}}",
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
-    "visualize": "meteor --production --extra-packages bundle-visualizer"
+    "visualize": "meteor --production --extra-packages bundle-visualizer",
+    "cleanup": "rm -rf .meteor-build-output",
+    "build": " npm run cleanup && meteor build --directory .meteor-build-output && cd .meteor-build-output/bundle/programs/server &&  npm install",
+    "bundle": "npm run build && abtnode bundle --zip --create-release",
+    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"
   },
   "dependencies": {
     "@babel/runtime": "^7.11.2",

@@ -6,7 +6,9 @@ description: >-
   /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/meteor-demo
 version: 1.0.0
 group: static
-main: .
+main: .meteor-build-output/bundle/main.js
+files:
+  - .meteor-build-output/bundle/*
 did: z8ia3bDrdFhPd9r6XsEPwegq56NvVMaWY9Um7
 community: ''
 documentation: ''
