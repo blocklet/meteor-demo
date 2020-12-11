@@ -7,8 +7,7 @@ description: >-
 version: 1.0.0
 group: dapp
 main: .meteor-build-output/bundle/main.js
-files:
-  - .meteor-build-output/bundle/*
+files: []
 did: z8ia3bDrdFhPd9r6XsEPwegq56NvVMaWY9Um7
 community: ''
 documentation: ''
@@ -23,7 +22,6 @@ interfaces:
     protocol: tcp
 environments: []
 screenshots: []
-specVersion: 1.0.1
+specVersion: 1.0.2
 timeout:
   start: 10
-files: []
