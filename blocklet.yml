@@ -20,7 +20,12 @@ interfaces:
     prefix: '*'
     port: BLOCKLET_PORT
     protocol: tcp
-environments: []
+environments:
+  - name: ROOT_URL # required to run , but first set to a meaningless value
+    description: ROOT_URL for meteor application
+    required: true
+    secure: false
+    default: 'http://127.0.0.1'
 screenshots: []
 specVersion: 1.0.2
 timeout:
