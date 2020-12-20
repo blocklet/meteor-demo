@@ -1,13 +1,14 @@
 name: meteor-demo
+version: 1.1.0
 scripts:
   dev: npm run start
 description: >-
   Blocklet from
   /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/meteor-demo
-version: 1.0.0
 group: dapp
 main: .meteor-build-output/bundle/main.js
-files: ['.meteor-build-output/bundle']
+files:
+  - .meteor-build-output/bundle
 did: z8ia3bDrdFhPd9r6XsEPwegq56NvVMaWY9Um7
 community: ''
 documentation: ''
@@ -21,7 +22,7 @@ interfaces:
     port: BLOCKLET_PORT
     protocol: tcp
 environments:
-  - name: ROOT_URL # required to run , but first set to a meaningless value
+  - name: ROOT_URL
     description: ROOT_URL for meteor application
     required: true
     secure: false
