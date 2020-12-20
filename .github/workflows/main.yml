@@ -20,6 +20,11 @@ jobs:
     - name: Init
       run: make github-init
 
+    - name: Setup Meteor
+      uses: meteorengineer/setup-meteor@v1
+      with:
+        meteor-release: '1.8.1'
+
     - name: Deploy
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
