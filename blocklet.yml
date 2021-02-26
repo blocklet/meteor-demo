@@ -2,13 +2,17 @@ name: meteor-demo
 version: 1.3.0
 scripts:
   dev: npm run start
-description: >-
-  Blocklet from
-  /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/meteor-demo
+description: Meteor powered Blocklet Demo
 group: dapp
 main: .meteor-build-output/bundle/main.js
 files:
+  - README.md
+  - blocklet.md
   - .meteor-build-output/bundle
+keywords:
+  - dapp
+  - demo
+  - meteor
 did: z8ia3bDrdFhPd9r6XsEPwegq56NvVMaWY9Um7
 community: ''
 documentation: ''
