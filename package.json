@@ -1,6 +1,6 @@
 {
   "name": "meteor-demo",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "private": true,
   "scripts": {
     "start": "meteor run --port  ${BLOCKLET_PORT:-${PORT:-3000}}",
