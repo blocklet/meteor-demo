@@ -8,7 +8,7 @@
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
     "visualize": "meteor --production --extra-packages bundle-visualizer",
     "cleanup": "rm -rf .meteor-build-output",
-    "build": " BLOCKLET_DID=z8ia3bDrdFhPd9r6XsEPwegq56NvVMaWY9Um7 && npm run cleanup && meteor build --directory .meteor-build-output && cd .meteor-build-output/bundle/programs/server &&  npm install",
+    "build": " BLOCKLET_DID=z8ia3bDrdFhPd9r6XsEPwegq56NvVMaWY9Um7 && npm run cleanup && meteor build --directory .meteor-build-output && cd .meteor-build-output/bundle/programs/server && npm install",
     "bundle": "npm run build && blocklet bundle --zip --create-release",
     "deploy": "npm run bundle && blocklet deploy .blocklet/bundle"
   },
