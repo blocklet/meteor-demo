@@ -1,3 +1,7 @@
+## 1.3.6 (十二月 08, 2021)
+
+- chore: upgrade blocklet.yml
+
 ## 1.3.5 (十月 14, 2021)
 
 - use action-workflow
