@@ -1,5 +1,5 @@
 name: meteor-demo
-version: 1.3.6
+version: 1.3.7
 title: Meteor Demo
 scripts:
   dev: npm run start
